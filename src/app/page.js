@@ -9,7 +9,7 @@ export default async function Home() {
       <h1 className="text-center mb-4">Todos os pokémons</h1>
       <div className="row">
         {data.results.map((pokemon, index) => (
-          <div className="col-lg-3 col-md-6 col-12 mb-3 d-flex justify-content-center">
+          <div key={pokemon.name} className="col-lg-3 col-md-6 col-12 mb-3 d-flex justify-content-center">
             <CardPokemonHome pokemon={pokemon} index={index} />
           </div>
         ))}
