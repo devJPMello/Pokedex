@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <>
             <div className='footer'>
-                Feito por Henrique, Mario e Lucas
+                Feito por Dev.JPMello
             </div>
         </>
     )
